@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  font-family: "Montserrat", sans-serif;
+}
+
+main #our--team {
+  width: 100%;
+  height: auto;
+}
+main #our--team .container {
+  text-align: center;
+  margin-top: 50px;
+}
+main #our--team .container h1 {
+  font-weight: 700;
+  color: #252B42;
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+main #our--team .container p {
+  font-weight: 400;
+  font-size: 14px;
+  opacity: 0.7;
+}
+main #team--profile {
+  width: 100%;
+  height: auto;
+}
+main #team--profile .container {
+  display: flex;
+  justify-content: center;
+  padding: 50px;
+}
+main #team--profile .container .box .profile {
+  display: flex;
+  justify-content: center;
+  width: 268px;
+  height: 126px;
+  gap: 15px;
+  margin-bottom: 10px;
+  padding: 20px;
+  margin: 5px;
+}
+main #team--profile .container .box .profile img {
+  width: 70px;
+  height: 76px;
+}
+main #team--profile .container .box .profile .text {
+  padding: 8px;
+}
+main #team--profile .container .box .profile .text h3 {
+  font-weight: 400;
+  font-size: 20px;
+  color: #252B42;
+  margin-bottom: 10px;
+}
+main #team--profile .container .box .profile .text P {
+  font-weight: 400;
+  opacity: 0.7;
+}/*# sourceMappingURL=team-2.css.map */

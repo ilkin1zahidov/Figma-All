@@ -1,0 +1,63 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  font-family: "Montserrat", sans-serif;
+}
+
+main #our--team {
+  width: 100%;
+  height: auto;
+}
+main #our--team .container {
+  text-align: center;
+  margin-top: 50px;
+}
+main #our--team .container h1 {
+  font-weight: 700;
+  color: #252B42;
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+main #our--team .container p {
+  font-weight: 400;
+  font-size: 14px;
+  opacity: 0.7;
+}
+main #team--card {
+  width: 100%;
+  height: auto;
+}
+main #team--card .container {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  gap: 30px;
+  padding: 80px;
+}
+main #team--card .container .card {
+  width: 234px;
+  height: 227px;
+}
+main #team--card .container .card img {
+  margin-bottom: 5px;
+}
+main #team--card .container .card h5 {
+  font-weight: 700;
+  color: #23A6F0;
+  margin-bottom: 10px;
+}
+main #team--card .container .card h4 {
+  font-weight: 700;
+  margin-bottom: 7px;
+}
+main #team--card .container .card p {
+  font-weight: 200;
+  opacity: 0.5;
+}/*# sourceMappingURL=team-3.css.map */
