@@ -65,8 +65,10 @@ main #bestseller--products .container form .accessories_submit {
   color: #23A6F0;
   background-color: #fff;
   margin-left: 5px;
+  cursor: pointer;
 }
 main #bestseller--products .container form .accessories_submit:hover {
+  transition: 0.7;
   background-color: #23A6F0;
   color: #fff;
 }

@@ -38,10 +38,10 @@ main #bestseller--products .container form .men_submit {
   color: #23A6F0;
   background-color: #fff;
   cursor: pointer;
-  transition: 0.7;
   margin-right: 5px;
 }
 main #bestseller--products .container form .men_submit:hover {
+  transition: 0.7;
   background-color: #23A6F0;
   color: #fff;
 }

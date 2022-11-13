@@ -44,9 +44,10 @@ main{
                         color: #23A6F0;
                         background-color: #fff;
                         cursor: pointer;
-                        transition: 0.7;
+                   
                         margin-right: 5px;
                         &:hover{    
+                            transition: 0.7;
                             background-color: #23A6F0 ;
                             color: #fff;
                         }

@@ -1,0 +1,84 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  font-family: "Montserrat", sans-serif;
+}
+
+main #summer--slide {
+  width: 100%;
+  height: auto;
+}
+main #summer--slide .cta-slide {
+  width: 1536px;
+  height: 753px;
+  position: relative;
+}
+main #summer--slide .cta-slide img {
+  width: 1536px;
+  height: 753px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  background-repeat: no-repeat;
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  top: 0px;
+  bottom: 0px;
+}
+main #summer--slide .cta-slide .line {
+  border: 4px solid #fff;
+  width: 642px;
+  height: 451px;
+  position: absolute;
+  top: 178px;
+  left: 433px;
+  text-align: center;
+  color: black;
+  padding-top: 90px;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 23px;
+  border-radius: 5px;
+}
+main #summer--slide .cta-slide .line .card_icon {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  padding: 10px;
+  background-color: #e74040;
+}
+main #summer--slide .cta-slide .line .card_icon img {
+  width: 30px;
+  height: 30px;
+}
+main #summer--slide .cta-slide .line h1 {
+  font-size: 32px;
+  font-weight: 900;
+  color: #252B42;
+}
+main #summer--slide .cta-slide .line p {
+  font-weight: 400;
+  font-size: 14px;
+}
+main #summer--slide .cta-slide .line form .submit_now {
+  width: 242px;
+  height: 45px;
+  border: 1px solid #23a6f0;
+  background-color: #23a6f0;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+}
+main #summer--slide .cta-slide .line form .submit_now:hover {
+  transition: 0.7;
+  background-color: #fff;
+  color: #23a6f0;
+}/*# sourceMappingURL=cta-7.css.map */

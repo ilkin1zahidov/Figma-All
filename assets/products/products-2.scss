@@ -74,8 +74,9 @@ main{
                         color: #23A6F0;
                         background-color: #fff;
                         margin-left: 5px;
-    
+                        cursor: pointer;
                         &:hover{    
+                            transition: 0.7;
                             background-color: #23A6F0 ;
                             color: #fff;
                         }

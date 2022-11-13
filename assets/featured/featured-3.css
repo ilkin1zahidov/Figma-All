@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  font-family: "Montserrat", sans-serif;
+}
+
+main #featured--products {
+  width: 100%;
+  height: auto;
+}
+main #featured--products .container {
+  text-align: center;
+  margin-top: 50px;
+}
+main #featured--products .container p {
+  color: #23a6f0;
+  margin-bottom: 10px;
+  font-size: 14px;
+  font-weight: 700;
+}
+main #featured--products .container h1 {
+  color: #252b42;
+  font-weight: 900;
+  font-size: 25px;
+  margin-bottom: 10px;
+}
+main #featured--products .container span {
+  opacity: 0.7;
+  font-size: 14px;
+}
+main #easy--use {
+  width: 100%;
+  height: auto;
+}
+main #easy--use .container {
+  padding: 70px 67px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+main #easy--use .container .credit_card {
+  display: flex;
+  gap: 10px;
+}
+main #easy--use .container .credit_card .card_icon {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  padding: 10px;
+  background-color: #e74040;
+  margin-top: 5px;
+}
+main #easy--use .container .credit_card .card_icon img {
+  width: 30px;
+  height: 30px;
+}
+main #easy--use .container .credit_card .card_text h3 {
+  font-weight: 700;
+  color: #252B42;
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+main #easy--use .container .credit_card .card_text p {
+  opacity: 0.7;
+  font-size: 14px;
+}/*# sourceMappingURL=featured-3.css.map */

@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  font-family: "Montserrat", sans-serif;
+}
+
+main #design--experience {
+  width: 100%;
+  height: auto;
+}
+main #design--experience .design-slide {
+  width: 1535px;
+  height: 753px;
+  position: relative;
+}
+main #design--experience .design-slide img {
+  width: 1535px;
+  height: 753px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  background-repeat: no-repeat;
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  top: 0px;
+  bottom: 0px;
+  filter: brightness(0.8);
+}
+main #design--experience .design-slide .line {
+  width: 642px;
+  height: 451px;
+  position: absolute;
+  top: 175px;
+  left: 397px;
+  text-align: center;
+  padding-top: 40px;
+  border: none;
+}
+main #design--experience .design-slide .line h1 {
+  font-weight: 700;
+  font-size: 35px;
+  margin-bottom: 22px;
+  color: #23A6F0;
+}
+main #design--experience .design-slide .line h2 {
+  font-weight: 900;
+  font-size: 30px;
+  color: #252B42;
+  margin-bottom: 23px;
+}
+main #design--experience .design-slide .line .email_button {
+  position: relative;
+}
+main #design--experience .design-slide .line .email_button form input {
+  width: 345px;
+  height: 52px;
+  border: 1px #E6E6E6 solid;
+  border-radius: 5px;
+  outline: none;
+  padding: 20px;
+  background-color: #F9F9F9;
+}
+main #design--experience .design-slide .line .email_button form button {
+  position: absolute;
+  top: 0px;
+  right: 149px;
+  width: 100px;
+  height: 52px;
+  border: 1px solid #23a6f0;
+  background-color: #23a6f0;
+  border-radius: 1px 4px 4px 1px;
+  color: #fff;
+  cursor: pointer;
+}
+main #design--experience .design-slide .line .email_button form button:hover {
+  transition: 1s;
+  background-color: #fff;
+  color: #23a6f0;
+}
+main #design--experience .design-slide .line p {
+  font-weight: 400;
+  font-size: 14px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  color: #737373;
+}
+main #design--experience .design-slide .line .icons i {
+  font-size: 30px;
+  padding: 15px;
+  color: #263238;
+  cursor: pointer;
+}
+main #design--experience .design-slide .line .icons i:hover {
+  transition: 0.7s;
+  color: #23a6f0;
+}/*# sourceMappingURL=subscription-4.css.map */

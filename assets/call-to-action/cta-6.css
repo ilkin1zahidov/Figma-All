@@ -1,0 +1,72 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  font-family: "Montserrat", sans-serif;
+}
+
+main #summer--slide {
+  width: 100%;
+  height: auto;
+}
+main #summer--slide .cta-slide {
+  width: 1536px;
+  height: 753px;
+  position: relative;
+}
+main #summer--slide .cta-slide img {
+  width: 1536px;
+  height: 753px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  background-repeat: no-repeat;
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  top: 0px;
+  bottom: 0px;
+}
+main #summer--slide .cta-slide .line {
+  border: 4px solid #fff;
+  width: 913px;
+  height: 451px;
+  position: absolute;
+  top: 165px;
+  left: 334px;
+  text-align: center;
+  color: #fff;
+  padding-top: 90px;
+  border-radius: 5px h1;
+  border-radius-font-size: 39px;
+  border-radius-font-weight: 700;
+  border-radius-margin-bottom: 30px;
+}
+main #summer--slide .cta-slide .line p {
+  font-weight: 400;
+  font-size: 14px;
+  margin-bottom: 30px;
+}
+main #summer--slide .cta-slide .line form .submit_now {
+  width: 242px;
+  height: 45px;
+  border: 1px solid #23a6f0;
+  background-color: #23a6f0;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-bottom: 30px;
+}
+main #summer--slide .cta-slide .line form .submit_now:hover {
+  transition: 1;
+  background-color: #fff;
+  color: #23a6f0;
+}
+main #summer--slide .cta-slide .line span {
+  font-weight: 700;
+  font-size: 14px;
+}/*# sourceMappingURL=cta-6.css.map */
